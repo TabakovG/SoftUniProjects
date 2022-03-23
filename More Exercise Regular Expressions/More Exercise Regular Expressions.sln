@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More Exercise Regular Expressions", "More Exercise Regular Expressions\More Exercise Regular Expressions.csproj", "{C49BBF8D-6414-4CF3-8023-5751FDF48638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "More Exercise Regular Expressions", "More Exercise Regular Expressions\More Exercise Regular Expressions.csproj", "{C49BBF8D-6414-4CF3-8023-5751FDF48638}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rage Quit", "Rage Quit\Rage Quit.csproj", "{54E3BFC3-2AE9-448D-9870-8336961200F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post Office", "Post Office\Post Office.csproj", "{921A089E-4009-4273-B415-0C6F4853F893}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C49BBF8D-6414-4CF3-8023-5751FDF48638}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C49BBF8D-6414-4CF3-8023-5751FDF48638}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C49BBF8D-6414-4CF3-8023-5751FDF48638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E3BFC3-2AE9-448D-9870-8336961200F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E3BFC3-2AE9-448D-9870-8336961200F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E3BFC3-2AE9-448D-9870-8336961200F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E3BFC3-2AE9-448D-9870-8336961200F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921A089E-4009-4273-B415-0C6F4853F893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921A089E-4009-4273-B415-0C6F4853F893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921A089E-4009-4273-B415-0C6F4853F893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921A089E-4009-4273-B415-0C6F4853F893}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
