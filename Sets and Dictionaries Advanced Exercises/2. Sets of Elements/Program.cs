@@ -23,7 +23,9 @@ namespace _2._Sets_of_Elements
                 setM.Add(Console.ReadLine());
             }
 
-            setN = setN.Where(x => setM.Contains(x)).ToHashSet();
+            //setN = setN.Where(x => setM.Contains(x)).ToHashSet();
+            setN.IntersectWith(setM);
+            setN.
             Console.WriteLine(String.Join(" ", setN));
         }
     }
