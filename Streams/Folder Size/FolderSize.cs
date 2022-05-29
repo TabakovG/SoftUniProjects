@@ -1,5 +1,6 @@
 ﻿namespace FolderSize
 {
+    using System;
     using System.IO;
     public class FolderSize
     {
@@ -8,10 +9,12 @@
             string folderPath = @"..\..\..\Files\TestFolder";
             string outputPath = @"..\..\..\Files\output.txt";
 
-            GetFolderSize(folderPath, outputPath);
+            double totalSize = GetFolderSize(folderPath)/1024.0;
+            using var writer = new StreamWriter(outputPath);
+            writer.Write(totalSize);
         }
 
-        public static void GetFolderSize(string folderPath, string outputFilePath)
+        static long GetFolderSize(string folderPath)
         {
             long totalSize = 0;
             string[] files = Directory.GetFiles(folderPath);
@@ -20,16 +23,11 @@
                 totalSize += new FileInfo(file).Length;
             }
             string[] folders = Directory.GetDirectories(folderPath);
-            foreach (var folder in folders)
+            foreach (var subfolder in folders)
             {
-                string[] subFiles = Directory.GetFiles(folder);
-                foreach (var sFile in subFiles)
-                {
-                    totalSize += new FileInfo(sFile).Length;
-                }
+                totalSize += GetFolderSize(subfolder);
             }
-            using var writer = new StreamWriter(outputFilePath);
-            writer.Write(totalSize/1024.0);
+            return totalSize;
         }
     }
 }
