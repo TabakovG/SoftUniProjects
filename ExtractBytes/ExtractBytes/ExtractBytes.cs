@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
-namespace ExtractSpecialBytes
+namespace ExtractBytes
 {
     public class ExtractSpecialBytes
     {
@@ -24,7 +25,7 @@ namespace ExtractSpecialBytes
                 bList.Add(specialBytes.ReadLine().Trim());
             }
 
-            using var png = new FileStream(binaryFilePath,FileMode.Open, FileAccess.Read);
+            using var png = new FileStream(binaryFilePath, FileMode.Open, FileAccess.Read);
             byte[] pngBytes = new byte[png.Length];
 
             png.Read(pngBytes, 0, pngBytes.Length);
