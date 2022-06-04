@@ -5,9 +5,15 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefiningClasses", "DefiningClasses\DefiningClasses.csproj", "{E230E922-2275-43A3-A535-6492186A430C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateModifier", "Date Modifier\DateModifier.csproj", "{8F94E40F-3138-442D-B947-B2D2B97D0E08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateModifier", "Date Modifier\DateModifier.csproj", "{8F94E40F-3138-442D-B947-B2D2B97D0E08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedRacing", "SpeedRacing\SpeedRacing.csproj", "{F7EAA5C2-BEB7-4C7F-8FBE-E7302A4188EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeedRacing", "SpeedRacing\SpeedRacing.csproj", "{F7EAA5C2-BEB7-4C7F-8FBE-E7302A4188EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawData", "RawData\RawData.csproj", "{0F1BDC87-7FF0-475B-AA9B-C5C5F760C148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSalesman", "CarSalesman\CarSalesman.csproj", "{9364CD09-B416-4E8C-BA19-0B1F58BE378F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonTrainer", "PokemonTrainer\PokemonTrainer.csproj", "{7DF7B847-E593-436A-9BD1-FC62BE145955}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{F7EAA5C2-BEB7-4C7F-8FBE-E7302A4188EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7EAA5C2-BEB7-4C7F-8FBE-E7302A4188EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7EAA5C2-BEB7-4C7F-8FBE-E7302A4188EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1BDC87-7FF0-475B-AA9B-C5C5F760C148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1BDC87-7FF0-475B-AA9B-C5C5F760C148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1BDC87-7FF0-475B-AA9B-C5C5F760C148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1BDC87-7FF0-475B-AA9B-C5C5F760C148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9364CD09-B416-4E8C-BA19-0B1F58BE378F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9364CD09-B416-4E8C-BA19-0B1F58BE378F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9364CD09-B416-4E8C-BA19-0B1F58BE378F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9364CD09-B416-4E8C-BA19-0B1F58BE378F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF7B847-E593-436A-9BD1-FC62BE145955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF7B847-E593-436A-9BD1-FC62BE145955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF7B847-E593-436A-9BD1-FC62BE145955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF7B847-E593-436A-9BD1-FC62BE145955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
