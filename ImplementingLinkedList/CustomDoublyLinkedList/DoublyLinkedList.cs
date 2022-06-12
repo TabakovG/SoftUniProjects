@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CustomDoublyLinkedList
 {
-    public class DoublyLinkedList
+    public class DoublyLinkedList<T>
     {
         public int Count { get; set; }
         private ListNode Head { get; set; }
@@ -14,16 +14,16 @@ namespace CustomDoublyLinkedList
         {
             public ListNode Previous { get; set; }
             public ListNode Next { get; set; }
-            public int Value { get; set; }
+            public T Value { get; set; }
 
-            public ListNode(int value)
+            public ListNode(T value)
             {
                 this.Value = value;
             }
 
         }
 
-        public void AddHead(int element)
+        public void AddFirst(T element)
         {
             if (this.Count == 0)
             {
@@ -40,7 +40,7 @@ namespace CustomDoublyLinkedList
             this.Count++;
         }
 
-        public void AddLast(int element)
+        public void AddLast(T element)
         {
             if (this.Count == 0)
             {
@@ -57,7 +57,7 @@ namespace CustomDoublyLinkedList
             this.Count++;
         }
 
-        public int RemoveFirst()
+        public T RemoveFirst()
         {
             if (this.Count == 0)
             {
@@ -81,7 +81,7 @@ namespace CustomDoublyLinkedList
             }
         }
 
-        public int RemoveLast()
+        public T RemoveLast()
         {
             if (this.Count == 0)
             {
@@ -106,7 +106,7 @@ namespace CustomDoublyLinkedList
 
         }
 
-        public void ForEach(Action<int> action)
+        public void ForEach(Action<T> action)
         {
             var currentElement = this.Head;
             while (currentElement != null)
@@ -118,9 +118,9 @@ namespace CustomDoublyLinkedList
 
         }
 
-        public int[] ToArray()
+        public T[] ToArray()
         { 
-            var array = new int[this.Count];
+            var array = new T[this.Count];
             var currentElement = this.Head;
             for (int i = 0; i < this.Count; i++)
             { 
@@ -130,9 +130,9 @@ namespace CustomDoublyLinkedList
             return array;
         }
 
-        public List<int> ToList()
+        public List<T> ToList()
         {
-            var list = new List<int>();
+            var list = new List<T>();
             var currentElement = this.Head;
             for (int i = 0; i < this.Count; i++)
             {

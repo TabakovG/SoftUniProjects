@@ -6,11 +6,11 @@ namespace CustomDoublyLinkedList
     {
         static void Main(string[] args)
         {
-            var list = new DoublyLinkedList();
+            var list = new DoublyLinkedList<int>();
 
-            list.AddHead(2);
-            list.AddHead(3);
-            list.AddHead(4);
+            list.AddFirst(2);
+            list.AddFirst(3);
+            list.AddFirst(4);
             Console.WriteLine();
             list.AddLast(5);
             list.AddLast(6);
