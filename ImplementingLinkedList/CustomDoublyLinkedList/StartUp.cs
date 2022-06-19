@@ -30,7 +30,10 @@ namespace CustomDoublyLinkedList
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine(list.ToString());
-
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

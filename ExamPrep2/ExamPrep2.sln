@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPrep2", "ExamPrep2\ExamPrep2.csproj", "{D074AECA-C759-4173-A9ED-6A7F8C39EDAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruffleHunter", "TruffleHunter\TruffleHunter.csproj", "{226AAFAE-E3C7-47D6-8A93-6D33A693BA72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D074AECA-C759-4173-A9ED-6A7F8C39EDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D074AECA-C759-4173-A9ED-6A7F8C39EDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D074AECA-C759-4173-A9ED-6A7F8C39EDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D074AECA-C759-4173-A9ED-6A7F8C39EDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226AAFAE-E3C7-47D6-8A93-6D33A693BA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226AAFAE-E3C7-47D6-8A93-6D33A693BA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226AAFAE-E3C7-47D6-8A93-6D33A693BA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226AAFAE-E3C7-47D6-8A93-6D33A693BA72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52BADC67-FFD0-49BE-B8DF-6CC9928C6E4C}
+	EndGlobalSection
+EndGlobal

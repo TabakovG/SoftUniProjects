@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CustomDoublyLinkedList
 {
-    public class DoublyLinkedList<T>
+    public class DoublyLinkedList<T> : IEnumerable<T>
     {
         public int Count { get; set; }
         private ListNode Head { get; set; }
@@ -155,5 +156,16 @@ namespace CustomDoublyLinkedList
             return text.ToString().TrimEnd('<','>','-');
         }
 
+        public IEnumerator<T> GetEnumerator()
+        {
+            var current = this.Head;
+            while (current != null)
+            {
+                yield return current.Value;
+                current = current.Next;
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator(); 
     }
 }
