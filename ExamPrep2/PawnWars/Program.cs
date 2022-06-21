@@ -52,7 +52,7 @@ namespace PawnWars
                     black.Row = nextRow;
                     black.Column = nextCol;
 
-                    Console.WriteLine($"Game over! Black capture on {coordinates[black.Column]}{black.Row + 1}.");
+                    Console.WriteLine($"Game over! Black capture on {coordinates[black.Column]}{black.Row + 2}.");
                     return true;
                 }
                 else
