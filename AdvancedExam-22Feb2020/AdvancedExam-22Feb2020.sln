@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LootBox", "LootBox\LootBox.csproj", "{0A12F57C-4C32-4549-A1BC-522E614F6DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Re-Volt", "Re-Volt\Re-Volt.csproj", "{A8B49A85-ED2B-42DB-A97C-8E3740C15610}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A12F57C-4C32-4549-A1BC-522E614F6DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A12F57C-4C32-4549-A1BC-522E614F6DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A12F57C-4C32-4549-A1BC-522E614F6DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A12F57C-4C32-4549-A1BC-522E614F6DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8B49A85-ED2B-42DB-A97C-8E3740C15610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B49A85-ED2B-42DB-A97C-8E3740C15610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B49A85-ED2B-42DB-A97C-8E3740C15610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B49A85-ED2B-42DB-A97C-8E3740C15610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F8C7541-75B5-4AA3-BEB5-734B2A10D9B9}
+	EndGlobalSection
+EndGlobal
