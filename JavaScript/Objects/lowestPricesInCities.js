@@ -1,8 +1,8 @@
 function findBestPrice(arr){
 let bestPrice = {};
 arr.forEach(element => {
-  let input = element.split(' | ');
-  if (bestPrice[input[1]] === undefined) {
+  let input = element.split(' | '); //moje da destrukturirame -> po chetlivo e -> let [town, product, price] = el.split();
+  if (bestPrice[input[1]] === undefined) { //can be replaced with if(!bestPrice.hasOwnProperty(input[1]))
     bestPrice[input[1]] = {town:input[0],price:Number(input[2])}
   }
   else if(bestPrice[input[1]].price > Number(input[2])){
